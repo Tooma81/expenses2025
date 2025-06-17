@@ -39,6 +39,20 @@
     border-radius: 12px;
 }
 
+.expense-item__date {
+    font-size: 16px;
+    background-color: #1f1f1f;
+    border: 1px solid white;
+    padding: 0.5rem;
+    border-radius: 12px;
+    min-width: 85px;
+}
+
+.expense-item__year {
+    font-size: 25px;
+    font-weight: bold;
+}
+
 @media (min-width: 580px) {
     .expense-item__description {
         flex-direction: row;
