@@ -39,6 +39,7 @@
     border-radius: 12px;
 }
 
+/*
 .expense-item__date {
     font-size: 16px;
     background-color: #1f1f1f;
@@ -52,6 +53,7 @@
     font-size: 25px;
     font-weight: bold;
 }
+*/
 
 @media (min-width: 580px) {
     .expense-item__description {
