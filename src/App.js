@@ -1,4 +1,4 @@
-import './App.css';
+import './components/Expenses.css';
 import ExpenseItem from './components/ExpenseItem';
 import React, { useState } from 'react';
 
@@ -31,7 +31,7 @@ const App = () => {
   };
 
   return (
-    <div id='expenses-container'>
+    <div id='expenses'>
       <div id='expenses-header'>
         <h2>Filter by year</h2>
         <select id="year-select" value={selectedYear} onChange={handleChange}>
